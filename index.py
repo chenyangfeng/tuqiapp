@@ -63,9 +63,9 @@ class Index:
         if msgType == 'image':#判断接受的微信消息是不是图片
             try:
                 picurl = xml.find('PicUrl').text#从微信反馈XML数据包里面获取图片网址
-                access_key = "kZOOkjCVeikohNP85sSPLJeX1FM49dVz0kPaVbzc"
-                secret_key = "1zCp0e7X4SJGGKOv9r4jaPwfv5YN-_ZxjJOVzA5w"
-                bucket_name = 'danpic'
+                access_key = "********"
+                secret_key = "********"
+                bucket_name = '****'
                 q = Auth(access_key, secret_key)
 				
                 bucket = BucketManager(q)
