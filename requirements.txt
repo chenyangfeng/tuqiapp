@@ -1,0 +1,4 @@
+web.py==0.37
+lxml==2.3.4
+requests==2.9.0
+bae_log
